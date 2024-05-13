@@ -1,6 +1,6 @@
 require_relative 'swiftui'
 
-platform :ios, '16.0'
+platform :ios, '17.0'
 use_modular_headers!
 
 @swiftui_previews_enabled = true unless ENV['CI'] == 'true'
